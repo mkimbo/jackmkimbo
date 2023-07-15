@@ -1,8 +1,7 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 import Typewriter from "typewriter-effect";
-import Jack from "../../public/jack.png";
 import Image from "next/image";
 
 export default function Hero() {
@@ -52,7 +51,9 @@ export default function Hero() {
       <div className="flex-1">
         <Image
           className="object-cover  object-center w-fit h-full"
-          src={Jack}
+          src="/jack.png"
+          width={1500}
+          height={1500}
           alt={"jack mkimbo"}
           placeholder="empty"
           priority={true}

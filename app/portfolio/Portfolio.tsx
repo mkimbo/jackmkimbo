@@ -2,10 +2,6 @@
 import Image from "next/image";
 import React from "react";
 import { AiFillGithub, AiFillEye } from "react-icons/ai";
-import Mern from "../../public/mern.png";
-import MissingLink from "../../public/missing-link.png";
-import BN from "../../public/bitnorm.png";
-import Personal from "../../public/personal.png";
 
 export default function MyPortfolio() {
   return (
@@ -17,7 +13,9 @@ export default function MyPortfolio() {
           <div>
             <Image
               className="rounded-t-lg object-cover  object-center w-full h-56"
-              src={Personal}
+              src="/personal.png"
+              width={500}
+              height={500}
               alt={"personal website"}
               placeholder="empty"
               priority={true}
@@ -56,7 +54,9 @@ export default function MyPortfolio() {
           <div>
             <Image
               className="rounded-t-lg object-cover  object-center w-full h-56"
-              src={BN}
+              src="/bitnorm.png"
+              width={500}
+              height={500}
               alt={"bitnorm website"}
               placeholder="empty"
               priority={true}
@@ -95,7 +95,9 @@ export default function MyPortfolio() {
           <div>
             <Image
               className="rounded-t-lg object-cover  object-center w-full h-56"
-              src={MissingLink}
+              src="/missing-link.png"
+              width={500}
+              height={500}
               alt={"missing link website"}
               placeholder="empty"
               priority={true}
@@ -137,7 +139,9 @@ export default function MyPortfolio() {
           <div>
             <Image
               className="rounded-t-lg object-cover object-center w-full h-56"
-              src={Mern}
+              src="/mern.png"
+              width={500}
+              height={500}
               alt={"mern app"}
               placeholder="empty"
               priority={true}
