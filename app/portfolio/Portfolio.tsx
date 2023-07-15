@@ -1,7 +1,11 @@
 "use client";
-import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 import { AiFillGithub, AiFillEye } from "react-icons/ai";
+import Mern from "../../public/mern.png";
+import MissingLink from "../../public/missing-link.png";
+import BN from "../../public/bitnorm.png";
+import Personal from "../../public/personal.png";
 
 export default function MyPortfolio() {
   return (
@@ -10,13 +14,15 @@ export default function MyPortfolio() {
       <div className="w-full border-b border-gray-600 mb-10 lg:w-2/3"></div>
       <div className="w-full h-fit flex flex-col justify-between sm:flex-row flex-wrap md:flex-nowrap">
         <div className="max-w-sm my-2 lg:w-[330px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 lg:m-5">
-          <a href="#">
-            <img
-              className="rounded-t-lg w-full max-h-56"
-              src="/personal.png"
-              alt=""
+          <div>
+            <Image
+              className="rounded-t-lg object-cover  object-center w-full h-56"
+              src={Personal}
+              alt={"personal website"}
+              placeholder="empty"
+              priority={true}
             />
-          </a>
+          </div>
           <div className="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -47,13 +53,15 @@ export default function MyPortfolio() {
           </div>
         </div>
         <div className="max-w-sm my-2 lg:w-[330px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 lg:m-5">
-          <a href="#">
-            <img
-              className="rounded-t-lg w-full h-56"
-              src="/bitnorm.png"
-              alt=""
+          <div>
+            <Image
+              className="rounded-t-lg object-cover  object-center w-full h-56"
+              src={BN}
+              alt={"bitnorm website"}
+              placeholder="empty"
+              priority={true}
             />
-          </a>
+          </div>
           <div className="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -74,6 +82,7 @@ export default function MyPortfolio() {
               </a> */}
               <a
                 href="https://bitnorm.com/"
+                target="_blank"
                 className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg hover:bg-white hover:text-black"
               >
                 View
@@ -83,13 +92,15 @@ export default function MyPortfolio() {
           </div>
         </div>
         <div className="max-w-sm my-2 lg:w-[330px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 lg:m-5">
-          <a href="#">
-            <img
-              className="rounded-t-lg w-full h-56"
-              src="/missing-link.png"
-              alt=""
+          <div>
+            <Image
+              className="rounded-t-lg object-cover  object-center w-full h-56"
+              src={MissingLink}
+              alt={"missing link website"}
+              placeholder="empty"
+              priority={true}
             />
-          </a>
+          </div>
           <div className="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -103,6 +114,7 @@ export default function MyPortfolio() {
             <div className="w-full flex flex-row justify-between">
               <a
                 href="#"
+                target="_blank"
                 className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg hover:bg-white hover:text-black "
               >
                 Code
@@ -110,6 +122,7 @@ export default function MyPortfolio() {
               </a>
               <a
                 href="#"
+                target="_blank"
                 className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg hover:bg-white hover:text-black "
               >
                 View
@@ -121,13 +134,15 @@ export default function MyPortfolio() {
       </div>
       <div className="w-full h-fit flex flex-col justify-between sm:flex-row flex-wrap md:flex-nowrap">
         <div className="max-w-sm my-2 lg:w-[330px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 lg:m-5">
-          <a href="#">
-            <img
-              className="rounded-t-lg w-full max-h-56"
-              src="/mern.png"
-              alt=""
+          <div>
+            <Image
+              className="rounded-t-lg object-cover object-center w-full h-56"
+              src={Mern}
+              alt={"mern app"}
+              placeholder="empty"
+              priority={true}
             />
-          </a>
+          </div>
           <div className="p-5">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -142,6 +157,7 @@ export default function MyPortfolio() {
             <div className="w-full flex flex-row justify-between">
               <a
                 href="https://github.com/mkimbo/mern-project-client"
+                target="_blank"
                 className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg hover:bg-white hover:text-black"
               >
                 Code
@@ -149,6 +165,7 @@ export default function MyPortfolio() {
               </a>
               <a
                 href="https://mern-mini-social.netlify.app/"
+                target="_blank"
                 className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg hover:bg-white hover:text-black 0"
               >
                 View

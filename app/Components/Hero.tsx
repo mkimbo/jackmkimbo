@@ -2,6 +2,8 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import Typewriter from "typewriter-effect";
+import Jack from "../../public/jack.png";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -47,12 +49,15 @@ export default function Hero() {
         </div>
       </div>
 
-      <div
-        className="flex-1 bg-cover bg-center "
-        style={{
-          backgroundImage: "url('/jack.png')",
-        }}
-      ></div>
+      <div className="flex-1">
+        <Image
+          className="object-cover  object-center w-fit h-full"
+          src={Jack}
+          alt={"jack mkimbo"}
+          placeholder="empty"
+          priority={true}
+        />
+      </div>
     </div>
   );
 }
