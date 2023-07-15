@@ -13,7 +13,7 @@ export default function MyPortfolio() {
           <div>
             <Image
               className="rounded-t-lg object-cover object-center w-full h-56"
-              src="/personal.png"
+              src="/jack.png"
               width={800}
               height={800}
               alt={"personal website"}
