@@ -14,8 +14,8 @@ export default function MyPortfolio() {
             <Image
               className="rounded-t-lg object-cover object-center w-full h-56"
               src="/personal.png"
-              width={1980}
-              height={1500}
+              width={1200}
+              height={800}
               alt={"personal website"}
               placeholder="empty"
               priority={true}
@@ -55,8 +55,8 @@ export default function MyPortfolio() {
             <Image
               className="rounded-t-lg object-cover  object-center w-full h-56"
               src="/bitnorm.png"
-              width={1980}
-              height={1500}
+              width={1200}
+              height={800}
               alt={"bitnorm website"}
               placeholder="empty"
               priority={true}
@@ -96,8 +96,8 @@ export default function MyPortfolio() {
             <Image
               className="rounded-t-lg object-cover  object-center w-full h-56"
               src="/missinglink.png"
-              width={1980}
-              height={1500}
+              width={1200}
+              height={800}
               alt={"missing link website"}
               placeholder="empty"
               priority={true}
@@ -140,8 +140,8 @@ export default function MyPortfolio() {
             <Image
               className="rounded-t-lg object-cover object-center w-full h-56"
               src="/mern.png"
-              width={1980}
-              height={1500}
+              width={1200}
+              height={800}
               alt={"mern app"}
               placeholder="empty"
               priority={true}
