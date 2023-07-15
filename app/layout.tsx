@@ -1,14 +1,59 @@
-import { useEffect } from "react";
 import Navbar from "./Components/Navbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { AiFillLinkedin, AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+export const metadata: Metadata = {
+  metadataBase: new URL("https://jackmkimbo.dev"),
   title: "Jack Mkimbo",
-  description: "Software Engineer based in Mombasa, Kenya",
+  description:
+    "Experienced Software Engineer skilled in React, Node.js TypeScript, and Flutter.",
+  alternates: {
+    canonical: `https://jackmkimbo.dev`,
+  },
+  openGraph: {
+    title: "Jack Mkimbo",
+    description:
+      "Experienced Software Engineer skilled in React, Node.js TypeScript, and Flutter.",
+    url: "https://jackmkimbo.dev",
+    siteName: "Jack Mkimbo",
+    images: [
+      {
+        url: "https://jackmkimbo.dev/jack.jfif", // Replace this with your own image
+        width: 1920,
+        height: 1080,
+      },
+    ],
+    locale: "en-US",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  twitter: {
+    title: "Jack Mkimbo",
+    card: "summary_large_image",
+    description:
+      "Experienced Software Engineer skilled in React, Node.js TypeScript, and Flutter.",
+    images: ["https://jackmkimbo.dev/jack.jfif"],
+  },
+  icons: {
+    shortcut: "/favicon.ico",
+  },
+  // verification: {
+  //   google: "VaD1qjKK95G1B1wsA3ZydoAdSg2r3aCm6D7ZJw2bw",
+  // },
 };
 
 export default function RootLayout({
