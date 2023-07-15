@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "Jack Mkimbo",
     images: [
       {
-        url: "https://jackmkimbo.dev/jack.jfif", // Replace this with your own image
+        url: "https://jackmkimbo.dev/jack.png", // Replace this with your own image
         width: 1920,
         height: 1080,
       },
@@ -45,8 +45,9 @@ export const metadata: Metadata = {
     title: "Jack Mkimbo",
     card: "summary_large_image",
     description:
-      "Experienced Software Engineer skilled in React, Node.js TypeScript, and Flutter.",
-    images: ["https://jackmkimbo.dev/jack.jfif"],
+      "Experienced Software Engineer skilled in React, Node, TypeScript, and Flutter.",
+    images: ["https://jackmkimbo.dev/jack.png"],
+    creator: "@JackMkimbo",
   },
   icons: {
     shortcut: "/favicon.ico",
