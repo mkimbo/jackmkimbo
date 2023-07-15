@@ -10,14 +10,14 @@ export default function MyPortfolio() {
       <div className="w-full border-b border-gray-600 mb-10 lg:w-2/3"></div>
       <div className="w-full h-fit flex flex-col justify-between sm:flex-row flex-wrap md:flex-nowrap">
         <div className="max-w-sm my-2 lg:w-[330px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 lg:m-5">
-          <div>
+          <div className="w-full h-56">
             <Image
-              className="rounded-t-lg object-cover object-center w-full h-56"
+              className="rounded-t-lg object-cover object-center"
               src="/personal.png"
+              alt={"personal website"}
               width={1200}
               height={800}
-              alt={"personal website"}
-              placeholder="empty"
+              // placeholder="empty"
               priority={true}
             />
           </div>
