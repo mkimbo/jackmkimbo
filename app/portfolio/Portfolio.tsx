@@ -95,7 +95,7 @@ export default function MyPortfolio() {
           <div>
             <Image
               className="rounded-t-lg object-cover  object-center w-full h-56"
-              src="/missing-link.png"
+              src="/missinglink.png"
               width={1980}
               height={1500}
               alt={"missing link website"}
