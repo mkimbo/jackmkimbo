@@ -50,7 +50,7 @@ export default function Hero() {
 
       <div className="flex-1">
         <Image
-          className="object-cover  object-center w-fit h-full"
+          className="object-cover object-center w-fit h-full"
           src="/jack.png"
           width={1500}
           height={1500}

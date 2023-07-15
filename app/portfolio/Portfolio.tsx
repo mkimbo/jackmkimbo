@@ -1,6 +1,6 @@
 "use client";
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 import { AiFillGithub, AiFillEye } from "react-icons/ai";
 
 export default function MyPortfolio() {
@@ -12,10 +12,10 @@ export default function MyPortfolio() {
         <div className="max-w-sm my-2 lg:w-[330px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 lg:m-5">
           <div>
             <Image
-              className="rounded-t-lg object-cover  object-center w-full h-56"
+              className="rounded-t-lg object-cover object-center w-full h-56"
               src="/personal.png"
-              width={500}
-              height={500}
+              width={800}
+              height={800}
               alt={"personal website"}
               placeholder="empty"
               priority={true}
@@ -55,8 +55,8 @@ export default function MyPortfolio() {
             <Image
               className="rounded-t-lg object-cover  object-center w-full h-56"
               src="/bitnorm.png"
-              width={500}
-              height={500}
+              width={800}
+              height={800}
               alt={"bitnorm website"}
               placeholder="empty"
               priority={true}
@@ -96,8 +96,8 @@ export default function MyPortfolio() {
             <Image
               className="rounded-t-lg object-cover  object-center w-full h-56"
               src="/missing-link.png"
-              width={500}
-              height={500}
+              width={800}
+              height={800}
               alt={"missing link website"}
               placeholder="empty"
               priority={true}
@@ -140,8 +140,8 @@ export default function MyPortfolio() {
             <Image
               className="rounded-t-lg object-cover object-center w-full h-56"
               src="/mern.png"
-              width={500}
-              height={500}
+              width={800}
+              height={800}
               alt={"mern app"}
               placeholder="empty"
               priority={true}
