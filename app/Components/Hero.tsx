@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="w-full flex flex-col-reverse sm:flex-row h-screen">
       <div className="flex-1 bg-transparent my-auto pl-5">
         <div className="mb-2 text-3xl mt-10 lg:mt-0 lg:w-4/5 mx-auto">
-          I'm Jack Mkimbo
+          I&apos;m Jack Mkimbo
         </div>
         <div className=" w-4/5 text-lg text-gray-400 lg:mx-auto mb-7">
           <Typewriter

@@ -13,18 +13,19 @@ export default function AboutMe() {
         </div>
         <div className="sm:flex-1">
           <div>
-            Welcome to my domain! I'm a passionate software engineer dedicated
-            to crafting effective and efficient web and mobile applications.
-            With expertise in JavaScript, Node.js, React, and Flutter, I
-            seamlessly switch between frontend and backend development to create
-            seamless user experiences and tackle complex business logic. With
-            solid work experience in Blockchain and Insurance product
-            development, I bring a specialized understanding of these domains to
-            deliver innovative solutions. I'm constantly expanding my skills and
-            knowledge, currently exploring the cloud and working towards an AWS
-            Solutions Architect certification. Join me on this exciting digital
-            journey, explore my projects, and let's collaborate to create
-            something extraordinary together!
+            Welcome to my domain! I&apos;m a passionate software engineer
+            dedicated to crafting effective and efficient web and mobile
+            applications. With expertise in JavaScript, Node.js, React, and
+            Flutter, I seamlessly switch between frontend and backend
+            development to create seamless user experiences and tackle complex
+            business logic. With solid work experience in Blockchain and
+            Insurance product development, I bring a specialized understanding
+            of these domains to deliver innovative solutions. I&apos;m
+            constantly expanding my skills and knowledge, currently exploring
+            the cloud and working towards an AWS Solutions Architect
+            certification. Join me on this exciting digital journey, explore my
+            projects, and let&apos;s collaborate to create something
+            extraordinary together!
           </div>
         </div>
       </div>
@@ -92,10 +93,10 @@ export default function AboutMe() {
               With a passion for mobile app development, I bring ideas to life
               by creating captivating and functional applications. Using tools
               like Flutter and Dart, I develop cross-platform mobile apps that
-              work seamlessly on iOS and Android devices. Whether it's building
-              user-friendly interfaces or integrating powerful features, my
-              focus is on delivering a smooth and engaging mobile experience
-              that resonates with users.
+              work seamlessly on iOS and Android devices. Whether it&apos;s
+              building user-friendly interfaces or integrating powerful
+              features, my focus is on delivering a smooth and engaging mobile
+              experience that resonates with users.
             </div>
           </div>
           <div className="mb-5">
