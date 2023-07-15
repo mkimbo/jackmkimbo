@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Hero from "./Components/Hero";
+import AboutMe from "./About";
 
-export default function Home() {
+export default function About() {
   return (
     <div className="flex mt-5 h-full flex-col items-center justify-between overflow-y-auto">
-      <Hero />
+      <AboutMe />
     </div>
   );
 }
