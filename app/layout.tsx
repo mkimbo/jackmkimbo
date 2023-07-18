@@ -64,7 +64,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-screen">
-      <body className={`${inter.className} flex flex-col h-full text-white`}>
+      <body className={`flex flex-col h-full font-primary text-white`}>
         <header className="z-50 fixed top-0 w-full">
           <Navbar />
         </header>
@@ -90,6 +90,7 @@ export default function RootLayout({
             <a
               href="https://github.com/mkimbo"
               className="text-blue-500"
+              aria-label="My Github Profile"
               target="_blank"
             >
               @mkimbo
@@ -99,13 +100,25 @@ export default function RootLayout({
             <div className="text-sm text-gray-400">Follow Me</div>
             <div className="mx-3 w-7 h-px my-auto bg-white"></div>
             <div className="text-center flex flex-row">
-              <a href="https://github.com/mkimbo" target="_blank">
+              <a
+                href="https://github.com/mkimbo"
+                target="_blank"
+                aria-label="My Github Profile"
+              >
                 <AiFillGithub fontSize={20} className="mx-1" />
               </a>
-              <a href="https://www.linkedin.com/in/jackmkimbo/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/jackmkimbo/"
+                target="_blank"
+                aria-label="My LinkedIn profile"
+              >
                 <AiFillLinkedin fontSize={20} className="mx-1" />
               </a>
-              <a href="https://twitter.com/JackMkimbo" target="_blank">
+              <a
+                href="https://twitter.com/JackMkimbo"
+                target="_blank"
+                aria-label="My Twitter profile"
+              >
                 <AiOutlineTwitter fontSize={20} className="mx-1" />
               </a>
             </div>

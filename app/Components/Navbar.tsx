@@ -20,15 +20,13 @@ export default function Navbar() {
             >
               Jack
             </Link>
-            {/* <button
-              className="text-white cursor-pointer bg-slate-700 text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-              type="button"
-              onClick={() => setNavbarOpen(!navbarOpen)}
-            >
-              <i className="fas fa-bars text-white"></i>
-            </button> */}
+
             <div className={"lg:hidden"}>
-              <button className="relative group" onClick={toggleMenu}>
+              <button
+                className="relative group"
+                onClick={toggleMenu}
+                aria-label="Menu button"
+              >
                 <div
                   className={`relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all  hover: group-focus: duration-200 shadow-md `}
                 >

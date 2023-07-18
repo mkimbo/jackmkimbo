@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="mb-2 text-3xl mt-10 lg:mt-0 lg:w-4/5 mx-auto">
           I&apos;m Jack Mkimbo
         </div>
-        <div className=" w-4/5 text-lg text-gray-400 lg:mx-auto mb-7">
+        <div className=" w-4/5 min-h-[30px] text-lg text-gray-400 lg:mx-auto mb-7">
           <Typewriter
             options={{
               strings: [
@@ -51,7 +51,7 @@ export default function Hero() {
       <div className="flex-1">
         <Image
           className="object-cover object-center w-fit h-full"
-          src="/jack.png"
+          src="/jack.webp"
           width={1500}
           height={1500}
           alt={"jack mkimbo"}

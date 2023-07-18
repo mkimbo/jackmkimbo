@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import { AiFillGithub, AiFillEye } from "react-icons/ai";
 
 export default function MyPortfolio() {
@@ -10,12 +9,12 @@ export default function MyPortfolio() {
       <div className="w-full border-b border-gray-600 mb-10 lg:w-2/3"></div>
       <div className="w-full h-fit flex flex-col justify-between sm:flex-row">
         <div className="max-w-sm p-6 my-2 bg-white border border-gray-200 rounded-lg lg:w-[300px] shadow md:m-5 dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
+          <div>
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               {" "}
               This site you are on
             </h5>
-          </a>
+          </div>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
             My personal portfolio website.I used Next.js with the new Server
             Actions for the contact form and Tailwind CSS for styling. It is
@@ -26,6 +25,7 @@ export default function MyPortfolio() {
             <a
               href="https://github.com/mkimbo/jackmkimbo"
               target="_blank"
+              aria-label="Github Link"
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg hover:bg-white hover:text-black "
             >
               Code
@@ -42,12 +42,12 @@ export default function MyPortfolio() {
           </div>
         </div>
         <div className="max-w-sm p-6 my-2 bg-white border border-gray-200 rounded-lg lg:w-[300px] shadow md:m-5 dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
+          <div>
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               {" "}
               BN Social Platform
             </h5>
-          </a>
+          </div>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
             A MERN Stack social platform I took part in building as part of my
             work experience at BitNorm, a Cypto/Blockchain Startup. We also used
@@ -73,12 +73,12 @@ export default function MyPortfolio() {
           </div>
         </div>
         <div className="max-w-sm p-6  my-2 bg-white border border-gray-200 rounded-lg lg:w-[300px] shadow md:m-5 dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
+          <div>
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               {" "}
               Missing Link
             </h5>
-          </a>
+          </div>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
             An empowering community-driven initiative that encourages
             individuals to take initiative and be responsible, fostering a
@@ -89,6 +89,7 @@ export default function MyPortfolio() {
             <a
               href="https://github.com/mkimbo/amber-alerts"
               target="_blank"
+              aria-label="Github Link"
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg hover:bg-white hover:text-black "
             >
               Code
@@ -97,6 +98,7 @@ export default function MyPortfolio() {
             <a
               href="#"
               target="_blank"
+              aria-label="Live Site Link"
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg hover:bg-white hover:text-black "
             >
               View
@@ -107,12 +109,12 @@ export default function MyPortfolio() {
       </div>
       <div className="w-full h-fit flex flex-col justify-between sm:flex-row flex-wrap md:flex-nowrap">
         <div className="max-w-sm p-6  my-2 bg-white border border-gray-200 rounded-lg lg:w-[300px] shadow md:m-5 dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
+          <div>
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               {" "}
               MERN App
             </h5>
-          </a>
+          </div>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
             A simple MERN Stack web application I used to practice & learn. It
             has role-based authentication using JWT & HttpOnly Cookies, CRUD
@@ -122,6 +124,7 @@ export default function MyPortfolio() {
             <a
               href="https://github.com/mkimbo/mern-project-client"
               target="_blank"
+              aria-label="Github Link"
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg hover:bg-white hover:text-black "
             >
               Code
@@ -130,6 +133,40 @@ export default function MyPortfolio() {
             <a
               href="https://mern-mini-social.netlify.app/"
               target="_blank"
+              aria-label="Live Site Link"
+              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg hover:bg-white hover:text-black "
+            >
+              View
+              <AiFillEye className="w-6 h-6 ml-2" />
+            </a>
+          </div>
+        </div>
+        <div className="max-w-sm p-6  my-2 bg-white border border-gray-200 rounded-lg lg:w-[300px] shadow md:m-5 dark:bg-gray-800 dark:border-gray-700">
+          <div>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              {" "}
+              Gatsby Blog
+            </h5>
+          </div>
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            This is a JAMStack blog application that is blazing fast and SEO
+            ready. It is made with React/Gatsby and a Firebase database. It is
+            also a PWA and comes ready with an easy to use CMS.
+          </p>
+          <div className="w-full flex flex-row justify-between">
+            <a
+              href="https://github.com/mkimbo/hyblog-final"
+              target="_blank"
+              aria-label="Github Link"
+              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg hover:bg-white hover:text-black "
+            >
+              Code
+              <AiFillGithub className="w-6 h-6 ml-2" />
+            </a>
+            <a
+              href="https://hyblog.netlify.app/"
+              target="_blank"
+              aria-label="Live Site Link"
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg hover:bg-white hover:text-black "
             >
               View
