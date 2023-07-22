@@ -11,11 +11,11 @@ export default function Contact() {
           <div className="sm:w-5/12 mb-7 lg:mb-0">
             <div className="text-3xl mb-5">Get in touch</div>
             <div className="text-lg mb-3">
-              <span className="text-xl font-bold">Email:</span>
+              <span className="text-xl font-bold">Email: </span>
               jackmkimbo@gmail.com
             </div>
             <div className="text-lg mb-3">
-              <span className="text-xl font-bold">Phone:</span>
+              <span className="text-xl font-bold">Phone: </span>
               +254758677651
             </div>
             <div>

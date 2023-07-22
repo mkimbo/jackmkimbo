@@ -10,7 +10,7 @@ export default function About() {
           </div>
           <div className="sm:flex-1">
             <div>
-              Welcome to my domain! I&apos;m a passionate software engineer
+              Welcome to my space! I&apos;m a passionate software engineer
               dedicated to crafting effective and efficient web and mobile
               applications. With expertise in JavaScript, Node.js, React, and
               Flutter, I seamlessly switch between frontend and backend

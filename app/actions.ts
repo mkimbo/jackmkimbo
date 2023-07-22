@@ -18,7 +18,7 @@ export async function SendMail(data: FormData) {
   const transporter = nodemailer.createTransport({
     host: "smtp.mandrillapp.com",
     port: process.env.NEXT_MAILCHIMP_PORT,
-    secure: false,
+    secure: true,
     auth: {
       user: "Jack Mkimbo",
       pass: process.env.NEXT_MAILCHIMP_API_KEY,
