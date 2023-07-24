@@ -9,7 +9,7 @@ export async function SendMail(data: FormData) {
 
   const message = {
     from: email,
-    to: "jackmkimbo@gmail.com",
+    to: "admin@jackmkimbo.dev",
     subject: subject,
     text: msg,
     html: `<p>${msg}</p>`,
