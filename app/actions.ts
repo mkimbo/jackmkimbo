@@ -11,10 +11,10 @@ const mailchimpClient = require("@mailchimp/mailchimp_transactional")(
 //   const email = data.get("email") as string;
 
 //   const message = {
-//     from: email,
+//     from_email: email,
 //     to: [
 //       {
-//         email: "jackmkimbo@gmail.com",
+//         email: "admin@jackmkimbo.dev",
 //       },
 //     ],
 //     subject: subject,
@@ -34,7 +34,7 @@ export async function SendMail(data: FormData) {
   const email = data.get("email") as string;
 
   const message = {
-    from: email,
+    from_email: email,
     to: [
       {
         email: "jackmkimbo@gmail.com",
